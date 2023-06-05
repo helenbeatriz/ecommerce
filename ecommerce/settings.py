@@ -28,7 +28,13 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'localhost',
+    '127.0.0.1',
+    '8000-helenbeatriz-ecommerce-4pgxljicmz1.ws-eu98.gitpod.io',
+    'https://8000-helenbeatriz-ecommerce-4pgxljicmz1.ws-eu98.gitpod.io/',
+]
+
 
 
 # Application definition
