@@ -33,6 +33,7 @@ ALLOWED_HOSTS = [
     '127.0.0.1',
     '8000-helenbeatriz-ecommerce-4pgxljicmz1.ws-eu98.gitpod.io',
     'https://8000-helenbeatriz-ecommerce-4pgxljicmz1.ws-eu98.gitpod.io/',
+    '8000-helenbeatriz-ecommerce-4pgxljicmz1.ws-eu99.gitpod.io',
 ]
 
 
@@ -50,7 +51,8 @@ INSTALLED_APPS = [
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
-    'mainpage'
+    'mainpage',
+    'products',
 ]
 
 MIDDLEWARE = [
