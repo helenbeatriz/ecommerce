@@ -34,6 +34,7 @@ ALLOWED_HOSTS = [
     '8000-helenbeatriz-ecommerce-4pgxljicmz1.ws-eu98.gitpod.io',
     'https://8000-helenbeatriz-ecommerce-4pgxljicmz1.ws-eu98.gitpod.io/',
     '8000-helenbeatriz-ecommerce-4pgxljicmz1.ws-eu99.gitpod.io',
+    '8000-helenbeatriz-ecommerce-4pgxljicmz1.ws-eu100.gitpod.io',
 ]
 
 
