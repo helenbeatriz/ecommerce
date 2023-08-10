@@ -23,7 +23,7 @@ if os.path.exists('env.py'):
 # See https://docs.djangoproject.com/en/3.2/howto/deployment/checklist/
 
 # SECURITY WARNING: keep the secret key used in production secret!
-SECRET_KEY = os.environ.get('SECRET_KEY')
+SECRET_KEY = 'tetsstst'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
@@ -35,6 +35,7 @@ ALLOWED_HOSTS = [
     'https://8000-helenbeatriz-ecommerce-4pgxljicmz1.ws-eu98.gitpod.io/',
     '8000-helenbeatriz-ecommerce-4pgxljicmz1.ws-eu99.gitpod.io',
     '8000-helenbeatriz-ecommerce-4pgxljicmz1.ws-eu100.gitpod.io',
+    '8000-helenbeatriz-ecommerce-xoq469pag11.ws-eu102.gitpod.io',
 ]
 
 
