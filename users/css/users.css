@@ -1,0 +1,23 @@
+.header-container {
+    background-color: #3498db; /* Header background color */
+    color: #fff; /* Header text color */
+    padding: 20px;
+}
+
+.logo-font {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333; /* Logo text color */
+}
+
+hr {
+    background-color: #ccc; /* Horizontal rule color */
+}
+
+.text-muted {
+    color: #777; /* Muted text color */
+}
+
+.mt-3 {
+    margin-top: 20px;
+}

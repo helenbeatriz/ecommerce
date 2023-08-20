@@ -14,14 +14,44 @@
 {% endblock %}
 
 {% block content %}
-    <div class="overlay"></div>
-    <div class="container">
+    <div class="container mt-5">
         <div class="row">
             <div class="col">
                 <hr>
-                <h2 class="logo-font mb-4">My Profile</h2>
+                <h2 class="logo-font text-center mb-4">My Profile</h2>
                 <hr>
             </div>
         </div>
-        {{ users }}
+        <div class="row">
+            <div class="col-lg-6">
+                <div class="card mb-4">
+                    <div class="card-header text-muted">
+                        Default Delivery Information
+                    </div>
+                    <div class="card-body">
+                        <form action="{% url 'users' %}" method="POST" id="users-update-form">
+                            {% csrf_token %}
+                            {{ form|crispy }}
+                            <button class="btn btn-primary btn-block mt-3">Update Information</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6">
+                <div class="card">
+                    <div class="card-header text-muted">
+                        Order History
+                    </div>
+                    <div class="card-body">
+                        {{ orders }}
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
+
+{% block postloadjs %}
+    {{ block.super }}
+    <script type="text/javascript" src="{% static 'users/js/countryfield.js' %}"></script>
 {% endblock %}
