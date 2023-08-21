@@ -3,10 +3,9 @@ html {
 }
 
 body {
-    background: url('/media/homepage_background_cropped.jpg') no-repeat center center fixed;
     background-size: cover;
     height: calc(100vh - 164px);
-    color: #555;
+    color: #ff1d92;
     font-family: 'Lato';
 }
 
@@ -34,13 +33,13 @@ body {
 }
 
 .btn-black {
-    background: black;
+    background: rgb(173, 25, 104);
     color: white;
 }
 
 .btn-outline-black {
     background: white;
-    color: black !important; /* use important to override link colors for <a> elements */
+    color: rgb(161, 32, 112) !important; /* use important to override link colors for <a> elements */
     border: 1px solid black;
 }
 
@@ -190,7 +189,7 @@ a.category-badge > span.badge:hover {
     }
 
     .header-container {
-        padding-top: 164px;
+        padding-top: 100px;
     }
 }
 

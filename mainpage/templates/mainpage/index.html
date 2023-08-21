@@ -10,18 +10,23 @@
 {% endblock %}
 
 {% block content %}
-    <div class="container h-100">
-        <div class="row h-100">
-            <div class="col-7 col-md-6 my-auto">
-                <h1 class="display-4 logo-font text-black">
-                    The new collections are here
-                </h1>
-                <div class="my-5">
-                    <h4>
-                        <a href="{% url 'products' %}" class="shop-now-button btn btn-lg rounded-0 text-uppercase py-3">Shop Now</a>
-                    </h4>
-                </div>
-            </div>
+<div class="container text-center my-5">
+    <div class="row">
+        <div class="col-md-6 my-auto">
+            <h1 class="display-3 text-black">
+                Welcome to the Dog Stuff Store!
+            </h1>
+            <p class="lead text-black">
+                Explore our amazing collection of dog products.
+            </p>
+            <a href="{% url 'products' %}" class="btn btn-success btn-lg rounded-pill mt-4">
+                Shop for Your Furry Friend
+            </a>
+        </div>
+        <div class="col-md-6 my-auto">
+            <img src="{% static 'images/dog.jpg' %}" alt="Dog Image" class="img-fluid rounded-circle">
         </div>
     </div>
+</div>
+</style>
 {% endblock %}
