@@ -298,3 +298,22 @@ a.category-badge > span.badge:hover {
         background-color: #218838;
         border-color: #1e7e34;
     }
+/*footer */
+footer {
+    text-align: center;
+}
+#linha-vertical {
+    height: 200px;
+    border-right: 1px solid rgb(0, 0, 0);
+}
+.social-networks {
+    text-align: center;
+}
+.social-networks>li {
+    display: inline;
+}
+.social-networks i {
+    font-size: 2rem;
+    margin: 1rem;
+    color: #000000;
+}
