@@ -41,7 +41,7 @@ ALLOWED_HOSTS = [
     '8000-helenbeatriz-ecommerce-xoq469pag11.ws-eu104.gitpod.io',
     '8000-helenbeatriz-ecommerce-xoq469pag11.ws-eu103.gitpod.io',
     'https://git.heroku.com/ecommercedogstore.git',
-    'ecommercedogstore-303367225c64.herokuapp.com',]
+    'https://ecommercedogshop-e103eca71005.herokuapp.com/',]
 
 
 
