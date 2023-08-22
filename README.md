@@ -10,6 +10,8 @@ Welcome to the Dog E-Commerce Shop, your one-stop destination for all things rel
 - [Usage](#usage)
 - [Credits](#credits)
 - [License](#license)
+- [Schema](#schema)
+
 
 ## Introduction
 
@@ -79,6 +81,64 @@ The Dog E-Commerce Shop is a comprehensive online platform designed to cater to 
 ## License
 
 This project is licensed under the [MIT License](LICENSE).
+
+## Schema 
+ 
+## Dog Shop Database Schema
+
+### Products
+- `product_id` (PK)
+- `product_name`
+- `category`
+- `description`
+- `price`
+
+### Customers
+- `customer_id` (PK)
+- `first_name`
+- `last_name`
+- `email`
+- `phone_number`
+- `address`
+
+### Orders
+- `order_id` (PK)
+- `customer_id` (FK)
+- `order_date`
+- `total_amount`
+
+### OrderItems
+- `order_item_id` (PK)
+- `order_id` (FK)
+- `product_id` (FK)
+- `quantity_ordered`
+- `item_price`
+
+### Reviews
+- `review_id` (PK)
+- `product_id` (FK)
+- `customer_id` (FK)
+- `rating`
+- `comment`
+
+### ShippingInfo
+- `shipping_id` (PK)
+- `order_id` (FK)
+- `shipment_date`
+- `tracking_number`
+- `delivery_address`
+
+### Manufacturers
+- `manufacturer_id` (PK)
+- `manufacturer_name`
+- `manufacturer_description`
+
+### Categories
+- `category_id` (PK)
+- `category_name`
+
+This database schema represents the core entities and relationships for a dog shop, allowing you to manage information about dogs, customers, orders, reviews, and more.
+
 
 
 <img src="">
