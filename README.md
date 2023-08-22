@@ -83,7 +83,7 @@ The Dog E-Commerce Shop is a comprehensive online platform designed to cater to 
 This project is licensed under the [MIT License](LICENSE).
 
 ## Schema 
- 
+ <img src="/media/diagram.png">
 ## Dog Shop Database Schema
 
 ### Products
@@ -137,8 +137,7 @@ This project is licensed under the [MIT License](LICENSE).
 - `category_id` (PK)
 - `category_name`
 
-This database schema represents the core entities and relationships for a dog shop, allowing you to manage information about dogs, customers, orders, reviews, and more.
-
+This database schema represents the core entities and relationships for a dog shop, allowing you to manage information about dogs, customers, orders, reviews.
 
 
 <img src="">

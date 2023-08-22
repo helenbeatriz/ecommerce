@@ -34,14 +34,7 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
-    '8000-helenbeatriz-ecommerce-4pgxljicmz1.ws-eu98.gitpod.io',
-    'https://8000-helenbeatriz-ecommerce-4pgxljicmz1.ws-eu98.gitpod.io/',
-    '8000-helenbeatriz-ecommerce-4pgxljicmz1.ws-eu99.gitpod.io',
-    '8000-helenbeatriz-ecommerce-4pgxljicmz1.ws-eu100.gitpod.io',
-    '8000-helenbeatriz-ecommerce-xoq469pag11.ws-eu104.gitpod.io',
-    '8000-helenbeatriz-ecommerce-xoq469pag11.ws-eu103.gitpod.io',
-    'https://git.heroku.com/ecommercedogstore.git',
-    'ecommercedogstore-167498ed6129.herokuapp.com',]
+    'ecommercedogstore-167498ed6129.herokuapp.com']
 
 
 
