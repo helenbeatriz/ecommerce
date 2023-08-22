@@ -1,44 +1,67 @@
 [
   {
+    "model": "products.product",
     "pk": 1,
-    "model": "products.product",
     "fields": {
-      "sku": "pp5001340155",
-      "name": "Arizona Original Bootcut Jeans",
-      "description": "Bootcut jeans in our just-right original fit are comfortable and look great too. 5-pocket style sits below waist straight fit through seat and thigh bootcut leg 18\" leg opening cotton washable imported extended sizes and washes available online only",
-      "price": 53.99,
-      "category": 1,
-      "rating": 4.6,
-      "image_url": "caraje-8ce0bce.webp",
-      "image": "products/inventory/fixtures/products.json"
+      "sku": "dog001",
+      "name": "Dog Collar - Adjustable",
+      "description": "A comfortable and adjustable dog collar for your furry friend. Made with durable materials and available in various colors and sizes.",
+      "price": "14.99",
+      "rating": "4.7",
+      "image_url": "dogcollar.jpg",
+      "category": 1
     }
   },
   {
+    "model": "products.product",
     "pk": 2,
-    "model": "products.product",
     "fields": {
-      "sku": "pp5001340156",
-      "name": "Vintage Leather Jacket",
-      "description": "Stay stylish with this vintage-inspired leather jacket. Made from genuine leather, it features a classic design with a zippered front, multiple pockets, and a comfortable fit. Perfect for any casual or semi-formal occasion.",
-      "price": 129.99,
-      "category": 2,
-      "rating": 4.8,
-      "image_url": "https://example.com/images/vintage-leather-jacket.jpg",
-      "image": "vintage-leather-jacket.jpg"
+      "sku": "dog002",
+      "name": "Dog Chew Toys - Set of 3",
+      "description": "Keep your dog entertained with this set of three chew toys. Designed to satisfy your dog's natural chewing instincts and promote dental health.",
+      "price": "19.99",
+      "rating": "4.9",
+      "image_url": "dog-chew-toys.jpg",
+      "category": 2
     }
   },
   {
-    "pk": 3,
     "model": "products.product",
+    "pk": 3,
     "fields": {
-      "sku": "pp5001340157",
-      "name": "Elegant Floral Dress",
-      "description": "Step out in style with this elegant floral dress. The beautiful floral print and flowy design make it perfect for special occasions or a day out. Made from high-quality fabric, it offers comfort and sophistication.",
-      "price": 79.99,
-      "category": 3,
-      "rating": 4.5,
-      "image_url": "https://example.com/images/floral-dress.jpg",
-      "image": "floral-dress.jpg"
+      "sku": "dog003",
+      "name": "Dog Bed - Orthopedic",
+      "description": "Give your dog a comfortable and supportive place to rest with this orthopedic dog bed. Perfect for dogs of all sizes.",
+      "price": "49.99",
+      "rating": "4.8",
+      "image_url": "dog-bed.jpg",
+      "category": 3
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+      "sku": "dog004",
+      "name": "Dog Leash - Reflective",
+      "description": "A durable and reflective dog leash for safe walks at any time of day. Features a comfortable handle and a secure clasp.",
+      "price": "12.99",
+      "rating": "4.6",
+      "image_url": "dog-leash.jpg",
+      "category": 4
+    }
+  },
+  {
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+      "sku": "dog005",
+      "name": "Dog Grooming Kit",
+      "description": "Keep your dog looking their best with this comprehensive grooming kit. Includes brushes, combs, nail clippers, and more.",
+      "price": "29.99",
+      "rating": "4.7",
+      "image_url": "dog-grooming-kit.jpg",
+      "category": 5
     }
   }
 ]

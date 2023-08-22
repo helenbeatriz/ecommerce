@@ -1,45 +1,42 @@
 [
-    {
-      "pk": 1,
-      "model": "products.product",
-      "fields": {
-        "sku": "pp5001340155",
-        "name": "Arizona Original Bootcut Jeans",
-        "description": "Bootcut jeans in our just-right original fit are comfortable and look great too. 5-pocket style sits below waist straight fit through seat and thigh bootcut leg 18\" leg opening cotton washable imported extended sizes and washes available online only",
-        "price": 53.99,
-        "category": 1,
-        "rating": 4.6,
-        "image_url": "caraje-8ce0bce.webp",
-        "image": "products/inventory/fixtures/products.json"
-      }
-    },
-    {
-      "pk": 2,
-      "model": "products.product",
-      "fields": {
-        "sku": "pp5001340156",
-        "name": "Vintage Leather Jacket",
-        "description": "Stay stylish with this vintage-inspired leather jacket. Made from genuine leather, it features a classic design with a zippered front, multiple pockets, and a comfortable fit. Perfect for any casual or semi-formal occasion.",
-        "price": 129.99,
-        "category": 2,
-        "rating": 4.8,
-        "image_url": "https://example.com/images/vintage-leather-jacket.jpg",
-        "image": "vintage-leather-jacket.jpg"
-      }
-    },
-    {
-      "pk": 3,
-      "model": "products.product",
-      "fields": {
-        "sku": "pp5001340157",
-        "name": "Elegant Floral Dress",
-        "description": "Step out in style with this elegant floral dress. The beautiful floral print and flowy design make it perfect for special occasions or a day out. Made from high-quality fabric, it offers comfort and sophistication.",
-        "price": 79.99,
-        "category": 3,
-        "rating": 4.5,
-        "image_url": "https://example.com/images/floral-dress.jpg",
-        "image": "floral-dress.jpg"
-      }
+  {
+    "model": "products.category",
+    "pk": 1,
+    "fields": {
+      "name": "Collars for Dogs",
+      "friendly_name": "Dog Collars"
     }
-  ]
-  
+  },
+  {
+    "model": "products.category",
+    "pk": 2,
+    "fields": {
+      "name": "Toys for Dogs",
+      "friendly_name": "Dog Toys"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 3,
+    "fields": {
+      "name": "Beds for Dogs",
+      "friendly_name": "Dog Beds"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 4,
+    "fields": {
+      "name": "Leashes for Dogs",
+      "friendly_name": "Dog Leashes"
+    }
+  },
+  {
+    "model": "products.category",
+    "pk": 5,
+    "fields": {
+      "name": "Grooming for Dogs",
+      "friendly_name": "Dog Grooming"
+    }
+  }
+]
