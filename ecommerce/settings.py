@@ -34,7 +34,8 @@ DEBUG = True
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
-    'ecommercedogstore-167498ed6129.herokuapp.com']
+    'ecommercedogstore-167498ed6129.herokuapp.com',
+    'test']
 
 
 
