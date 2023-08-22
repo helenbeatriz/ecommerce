@@ -1,6 +1,6 @@
 # Dog E-Commerce Shop
 
-Welcome to the Dog E-Commerce Shop, your one-stop destination for all things related to dogs. Whether you're a proud dog owner or simply a dog enthusiast, our platform is tailored to meet all your canine needs.
+DoggStuff is a B2C (Business to Consumer) ecommerce platform that brings the world of high-quality dog products directly to dog owners and enthusiasts. We are dedicated to providing a seamless online shopping experience, where our business sells a wide range of dog-related products directly to our valued customers. Whether you're looking for stylish dog coats, cozy hoodies, fashionable dog t-shirts, or adorable dog bandanas, DoggStuff is your one-stop destination for all things doggy. Explore our curated selection, make secure purchases, and pamper your furry friends with the finest products. We're here to make tails wag and pups happy!"
 
 [Visit live website](https://ecommercedogstore-167498ed6129.herokuapp.com/)
 
@@ -12,10 +12,12 @@ Welcome to the Dog E-Commerce Shop, your one-stop destination for all things rel
 - [Features](#features)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Testing](#prerequisites)
 - [Credits](#credits)
 - [License](#license)
 - [Schema](#schema)
 
+# Ecommerce Dog Stuff App Testing Guide
 
 ## Introduction
 
@@ -267,12 +269,104 @@ The site was deployed to Heroku. The steps to deploy are as follows:
 - Scroll down to Manual deploy and choose the main branch- Click deploy
 The app should now be deployed.
 
-### Forking the GitHub Repository
+# Ecommerce Dog Stuff App Testing Guide
+
+This document provides a step-by-step guide for testing the Dog Stuff ecommerce app. Testing is essential to ensure the app functions correctly and delivers a seamless shopping experience for users.
+
+## Table of Contents
+
+1. [Prerequisites](#prerequisites)
+2. [Types of Testing](#types-of-testing)
+    - [Unit Testing](#unit-testing)
+    - [Integration Testing](#integration-testing)
+    - [User Acceptance Testing](#user-acceptance-testing)
+3. [Test Scenarios](#test-scenarios)
+    - [User Registration](#user-registration)
+    - [Product Browsing](#product-browsing)
+    - [Shopping Cart](#shopping-cart)
+    - [Checkout Process](#checkout-process)
+4. [Testing Tools](#testing-tools)
+5. [Running Tests](#running-tests)
+6. [Reporting and Documentation](#reporting-and-documentation)
+7. [Bug Tracking](#bug-tracking)
+8. [Conclusion](#conclusion)
+
+## Prerequisites
+
+Before starting testing, ensure that you have the following:
+
+- A local development environment with the app running.
+- Test data (e.g., sample products, user accounts) for realistic testing.
+- Testing tools and libraries installed (if applicable).
+
+## Types of Testing
+
+### Unit Testing
+
+Unit testing focuses on testing individual components or functions of the application. Write unit tests to validate the correctness of small, isolated parts of the code, such as functions, methods, or classes.
+
+### Integration Testing
+
+Integration testing checks the interactions between different components or modules of the application. It ensures that various parts of the app work together as expected.
+
+### User Acceptance Testing
+
+User acceptance testing involves testing the application from the end user's perspective. It verifies that the app meets user requirements and functions as intended in a real-world scenario.
+
+## Test Scenarios
+
+### User Registration
+
+1. Verify that a new user can successfully register an account.
+    - Test that registration form validation works for email, password, and other required fields.
+2. Ensure that user registration validation works for email, password, and other required fields.
+3. Test the "Forgot Password" functionality to reset a user's password.
+
+### Product Browsing
+
+1. Test the ability to browse products by categories (e.g., dog coats, hoodies).
+2. Verify that product details pages display accurate information (e.g., price, description, images).
+3. Check that products can be filtered and sorted by various criteria.
+
+### Shopping Cart
+
+1. Add products to the shopping cart and verify the cart's contents.
+2. Test cart updates (e.g., changing quantities, removing items).
+3. Ensure that discounts or promo codes are applied correctly.
+4. Check that the cart's total price is calculated accurately.
+
+### Checkout Process
+
+1. Test the checkout process, including entering shipping and payment information.
+2. Verify that orders are successfully placed.
+3. Check for email notifications (order confirmation, shipping updates).
+4. Test error handling during checkout (e.g., declined payment).
+
+## Testing Tools
+
+We use the following testing tools:
+
+- **Django Testing Framework**: Django's built-in testing framework for unit and integration testing.
+- **Selenium**: For automated browser testing.
+- **Postman**: For API testing.
+
+## Running Tests
+
+To run tests locally, use the following commands:
+
+```bash
+ Run unit tests
+python manage.py test
+
+Run Selenium browser tests
+Add specific instructions for running Selenium tests here.
+
+ Forking the GitHub Repository
 1. Go to the GitHub repository
 2. Click on Fork button in top right corner
 3. You will then have a copy of the repository in your own GitHub account.
    
-### Making a Local Clone
+ Making a Local Clone
 1. Go to the GitHub repository 
 2. Locate the Code button above the list of files and click it
 3. Highlight the "HTTPS" button to clone with HTTPS and copy the link
@@ -356,4 +450,4 @@ I developed my website based on plenty of tutorials and also on the e-commerce i
 - Django all-auth [documentation](https://django-allauth.readthedocs.io/en/latest/index.html)
 
 ### Acknowledgements
-I want to express my gratitude towards all those who helped me in the creation of this project. Specifically, I would like to thank tutors available, and the support of my friends. 
+I want to express my gratitude towards all those who helped me in the creation of this project. Specifically, I would like to thank tutors available, especially my mentor Daisy and the support of my friends. 

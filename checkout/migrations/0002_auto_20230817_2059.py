@@ -4,35 +4,38 @@ from django.db import migrations, models
 
 
 class Migration(migrations.Migration):
-
     dependencies = [
-        ('checkout', '0001_initial'),
+        ("checkout", "0001_initial"),
     ]
 
     operations = [
         migrations.RenameField(
-            model_name='order',
-            old_name='street_address',
-            new_name='street_address1',
+            model_name="order",
+            old_name="street_address",
+            new_name="street_address1",
         ),
         migrations.AddField(
-            model_name='order',
-            name='street_address2',
+            model_name="order",
+            name="street_address2",
             field=models.CharField(blank=True, max_length=80, null=True),
         ),
         migrations.AddField(
-            model_name='orderlineitem',
-            name='product_size',
+            model_name="orderlineitem",
+            name="product_size",
             field=models.CharField(blank=True, max_length=2, null=True),
         ),
         migrations.AlterField(
-            model_name='order',
-            name='id',
-            field=models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID'),
+            model_name="order",
+            name="id",
+            field=models.AutoField(
+                auto_created=True, primary_key=True, serialize=False, verbose_name="ID"
+            ),
         ),
         migrations.AlterField(
-            model_name='orderlineitem',
-            name='id',
-            field=models.AutoField(auto_created=True, primary_key=True, serialize=False, verbose_name='ID'),
+            model_name="orderlineitem",
+            name="id",
+            field=models.AutoField(
+                auto_created=True, primary_key=True, serialize=False, verbose_name="ID"
+            ),
         ),
     ]

@@ -3,6 +3,7 @@ from django.dispatch import receiver
 
 from .models import OrderLineItem
 
+
 @receiver([post_save, post_delete], sender=OrderLineItem)
 def update_order_total(sender, instance, **kwargs):
     """
