@@ -35,7 +35,7 @@ DEBUG = development
 ALLOWED_HOSTS = [
     'localhost',
     '127.0.0.1',
-    'ecommercedogstore-167498ed6129.herokuapp.com',
+    os.environ.get('HEROKU_HOSTNAME'),
     'https://8000-helenbeatriz-ecommerce-xoq469pag11.ws-eu104.gitpod.io',
     '8000-helenbeatriz-ecommerce-xoq469pag11.ws-eu104.gitpod.io'
     ]
