@@ -1,0 +1,967 @@
+[
+    {
+        "model": "admin.logentry",
+        "pk": 1,
+        "fields": {
+            "action_time": "2023-07-31T09:46:24.342Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "1",
+            "object_repr": "test",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 2,
+        "fields": {
+            "action_time": "2023-07-31T09:46:41.301Z",
+            "user": 1,
+            "content_type": 13,
+            "object_id": "1",
+            "object_repr": "test",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 3,
+        "fields": {
+            "action_time": "2023-07-31T09:46:53.491Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "2",
+            "object_repr": "test",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 4,
+        "fields": {
+            "action_time": "2023-07-31T09:50:46.828Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "2",
+            "object_repr": "test",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 5,
+        "fields": {
+            "action_time": "2023-07-31T09:50:46.840Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "1",
+            "object_repr": "test",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 6,
+        "fields": {
+            "action_time": "2023-07-31T11:32:25.786Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "3",
+            "object_repr": "Elegant Floral Dress",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 7,
+        "fields": {
+            "action_time": "2023-08-03T11:41:34.862Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "2",
+            "object_repr": "Vintage Leather Jacket",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 8,
+        "fields": {
+            "action_time": "2023-08-03T11:41:42.135Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "3",
+            "object_repr": "Elegant Floral Dress",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 9,
+        "fields": {
+            "action_time": "2023-08-03T11:41:48.565Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "1",
+            "object_repr": "Arizona Original Bootcut Jeans",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image url\", \"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 10,
+        "fields": {
+            "action_time": "2023-08-03T11:42:17.690Z",
+            "user": 1,
+            "content_type": 14,
+            "object_id": "2",
+            "object_repr": "Vintage Leather Jacket",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 11,
+        "fields": {
+            "action_time": "2023-08-21T16:21:09.977Z",
+            "user": 3,
+            "content_type": 4,
+            "object_id": "3",
+            "object_repr": "gitpod",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Email address\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 12,
+        "fields": {
+            "action_time": "2023-08-21T16:21:31.220Z",
+            "user": 3,
+            "content_type": 8,
+            "object_id": "3",
+            "object_repr": "test@test.com",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 13,
+        "fields": {
+            "action_time": "2023-08-21T17:02:33.547Z",
+            "user": 3,
+            "content_type": 18,
+            "object_id": "4",
+            "object_repr": "ProductReview object (4)",
+            "action_flag": 2,
+            "change_message": "[]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 14,
+        "fields": {
+            "action_time": "2023-08-21T17:14:49.565Z",
+            "user": 3,
+            "content_type": 18,
+            "object_id": "9",
+            "object_repr": "ProductReview object (9)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 15,
+        "fields": {
+            "action_time": "2023-08-21T17:14:49.567Z",
+            "user": 3,
+            "content_type": 18,
+            "object_id": "3",
+            "object_repr": "ProductReview object (3)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 16,
+        "fields": {
+            "action_time": "2023-08-21T17:14:49.569Z",
+            "user": 3,
+            "content_type": 18,
+            "object_id": "2",
+            "object_repr": "ProductReview object (2)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 17,
+        "fields": {
+            "action_time": "2023-08-21T17:14:49.573Z",
+            "user": 3,
+            "content_type": 18,
+            "object_id": "1",
+            "object_repr": "ProductReview object (1)",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 18,
+        "fields": {
+            "action_time": "2023-08-22T13:37:15.609Z",
+            "user": 3,
+            "content_type": 13,
+            "object_id": "7",
+            "object_repr": "kitchen_dining",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 19,
+        "fields": {
+            "action_time": "2023-08-22T13:37:15.612Z",
+            "user": 3,
+            "content_type": 13,
+            "object_id": "6",
+            "object_repr": "jeans",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 20,
+        "fields": {
+            "action_time": "2023-08-22T13:37:15.614Z",
+            "user": 3,
+            "content_type": 13,
+            "object_id": "5",
+            "object_repr": "essentials",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 21,
+        "fields": {
+            "action_time": "2023-08-22T13:37:15.616Z",
+            "user": 3,
+            "content_type": 13,
+            "object_id": "2",
+            "object_repr": "bed_bath",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 22,
+        "fields": {
+            "action_time": "2023-08-22T13:37:15.618Z",
+            "user": 3,
+            "content_type": 13,
+            "object_id": "1",
+            "object_repr": "activewear",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 23,
+        "fields": {
+            "action_time": "2023-08-22T13:37:35.094Z",
+            "user": 3,
+            "content_type": 13,
+            "object_id": "10",
+            "object_repr": "All Dog Clothing",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 24,
+        "fields": {
+            "action_time": "2023-08-22T13:37:44.720Z",
+            "user": 3,
+            "content_type": 13,
+            "object_id": "10",
+            "object_repr": "All Dog Clothing",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Friendly name\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 25,
+        "fields": {
+            "action_time": "2023-08-22T13:37:59.430Z",
+            "user": 3,
+            "content_type": 13,
+            "object_id": "11",
+            "object_repr": "Bandanas",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 26,
+        "fields": {
+            "action_time": "2023-08-22T13:38:14.036Z",
+            "user": 3,
+            "content_type": 13,
+            "object_id": "12",
+            "object_repr": "T-Shirts",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 27,
+        "fields": {
+            "action_time": "2023-08-22T13:38:25.927Z",
+            "user": 3,
+            "content_type": 13,
+            "object_id": "13",
+            "object_repr": "Dog Beds",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 28,
+        "fields": {
+            "action_time": "2023-08-22T13:38:36.280Z",
+            "user": 3,
+            "content_type": 13,
+            "object_id": "14",
+            "object_repr": "Dog Feeders",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 29,
+        "fields": {
+            "action_time": "2023-08-22T13:38:58.354Z",
+            "user": 3,
+            "content_type": 13,
+            "object_id": "15",
+            "object_repr": "All Dog Homeware",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 30,
+        "fields": {
+            "action_time": "2023-08-22T13:39:21.265Z",
+            "user": 3,
+            "content_type": 14,
+            "object_id": "1",
+            "object_repr": "Arizona Original Bootcut Jeans",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 31,
+        "fields": {
+            "action_time": "2023-08-22T13:39:21.268Z",
+            "user": 3,
+            "content_type": 14,
+            "object_id": "2",
+            "object_repr": "Vintage Leather Jacket",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 32,
+        "fields": {
+            "action_time": "2023-08-22T13:39:21.270Z",
+            "user": 3,
+            "content_type": 14,
+            "object_id": "3",
+            "object_repr": "Elegant Floral Dress",
+            "action_flag": 3,
+            "change_message": ""
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 33,
+        "fields": {
+            "action_time": "2023-08-22T13:41:48.305Z",
+            "user": 3,
+            "content_type": 14,
+            "object_id": "4",
+            "object_repr": "Dog bed",
+            "action_flag": 1,
+            "change_message": "[{\"added\": {}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 34,
+        "fields": {
+            "action_time": "2023-08-22T13:42:22.653Z",
+            "user": 3,
+            "content_type": 14,
+            "object_id": "4",
+            "object_repr": "Dog bed",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Sku\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 35,
+        "fields": {
+            "action_time": "2023-08-22T14:20:40.744Z",
+            "user": 3,
+            "content_type": 14,
+            "object_id": "1",
+            "object_repr": "Dog Collar - Adjustable",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image url\", \"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 36,
+        "fields": {
+            "action_time": "2023-08-22T14:21:25.485Z",
+            "user": 3,
+            "content_type": 14,
+            "object_id": "2",
+            "object_repr": "Dog Chew Toys - Set of 3",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image url\", \"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 37,
+        "fields": {
+            "action_time": "2023-08-22T14:22:05.417Z",
+            "user": 3,
+            "content_type": 14,
+            "object_id": "3",
+            "object_repr": "Dog Bed - Orthopedic",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image url\", \"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 38,
+        "fields": {
+            "action_time": "2023-08-22T14:23:00.634Z",
+            "user": 3,
+            "content_type": 14,
+            "object_id": "4",
+            "object_repr": "Dog Leash - Reflective",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image url\", \"Image\"]}}]"
+        }
+    },
+    {
+        "model": "admin.logentry",
+        "pk": 39,
+        "fields": {
+            "action_time": "2023-08-22T14:23:29.440Z",
+            "user": 3,
+            "content_type": 14,
+            "object_id": "5",
+            "object_repr": "Dog Grooming Kit",
+            "action_flag": 2,
+            "change_message": "[{\"changed\": {\"fields\": [\"Image url\", \"Image\"]}}]"
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 5,
+        "fields": {
+            "password": "pbkdf2_sha256$260000$yYdlPouGKhquf0N3cH40xW$hpp4jyZN8MQXA2Y3Gvm14Cg5rMuraChidrdhfN9QpHM=",
+            "last_login": "2023-08-20T16:10:34.723Z",
+            "is_superuser": true,
+            "username": "test",
+            "first_name": "",
+            "last_name": "",
+            "email": "",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2023-07-31T09:45:23.541Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 2,
+        "fields": {
+            "password": "pbkdf2_sha256$260000$oIs6xDqMEKl0ouQp7pttvn$NBYet7gafsMGnlCcZuna9VwDR0krqAtb2UXhdOcQwLA=",
+            "last_login": "2023-08-20T15:47:16.971Z",
+            "is_superuser": false,
+            "username": "seantutor",
+            "first_name": "",
+            "last_name": "",
+            "email": "sean@ci.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2023-08-20T15:41:28.384Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 3,
+        "fields": {
+            "password": "pbkdf2_sha256$260000$h3JYNHZT4T8dtAHEK5204T$xpaqkRPDnqjCmuF4mNaoorFiZi2esmWPEVyVrO+t+4Y=",
+            "last_login": "2023-08-22T14:17:19.599Z",
+            "is_superuser": true,
+            "username": "gitpod",
+            "first_name": "",
+            "last_name": "",
+            "email": "test@test.com",
+            "is_staff": true,
+            "is_active": true,
+            "date_joined": "2023-08-20T16:11:48Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "auth.user",
+        "pk": 4,
+        "fields": {
+            "password": "pbkdf2_sha256$260000$DgsE97BvDXLPI7FRTjkyLj$cLn0XOP+aNpDfreRCLehpTd3bslMZyv/CIULWh6CWmA=",
+            "last_login": "2023-08-21T16:21:40.527Z",
+            "is_superuser": false,
+            "username": "testing",
+            "first_name": "",
+            "last_name": "",
+            "email": "helen_beatriz02@outlook.com",
+            "is_staff": false,
+            "is_active": true,
+            "date_joined": "2023-08-20T16:28:23.902Z",
+            "groups": [],
+            "user_permissions": []
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "1sxe5sfkrgsyg93dk8v6ajw093e6j8ku",
+        "fields": {
+            "session_data": ".eJxVjMEOwiAQBf-FsyEFKoUevfsNBHYXixow0CYa478bkh70-mbevJnz27q4rVF1CdnMJDv8bsHDjXIHePX5UjiUvNYUeFf4Ths_F6T7aXf_AotvS3-jGoGUPnoNQHbSMYoYglIgcBDRAyEpBCuNElKaIKfRRLTgZRRWD6ZHG7WWSnb0fKT6YvPw-QLRcEAB:1qXke5:qWXFt41J1WcRAutleFnQd9Dzx4Lgqcy49Ewx752Otko",
+            "expire_date": "2023-09-03T15:47:17.057Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "f5wgsq0sux8e1ea8945iukjnfxwwgicg",
+        "fields": {
+            "session_data": "e30:1qXl0c:XBSEIK1_jpIKBoQT4df31aPHgfvkophHwKi7H2X2SJk",
+            "expire_date": "2023-09-03T16:10:34.720Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "fxqqsibf5alumi4fgzsmucgkh4cvtyao",
+        "fields": {
+            "session_data": ".eJxVjDsOwjAQBe_iGll4Y_yhpOcM1q53jQPIkeKkQtwdIqWA9s3Me6mE61LT2mVOI6uzGtThdyPMD2kb4Du226Tz1JZ5JL0peqddXyeW52V3_w4q9vqtS0EE8EQFxOTokKMJCAHEG-sJJSAWGwe2joAjsYSjkxMJRMtATr0_E0o49g:1qYSC1:ByWJ-jbwRdGjEiP4tluDk4cDZYudHV5i7laup7-V4zA",
+            "expire_date": "2023-09-05T14:17:13.983Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "gefadbxn2vnqvjacgmgn4gpwzh019iz1",
+        "fields": {
+            "session_data": "eyJiYXNrZXQiOnsiMyI6Mn19:1qWFIj:jMRaRHraE2sTShre-PwwGdAGu7SQO8e7mRl6FflmCHM",
+            "expire_date": "2023-08-30T12:07:01.071Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "jeovkwihvisods924qx60w9w4s6ldo9z",
+        "fields": {
+            "session_data": "eyJiYXNrZXQiOnsiMiI6Mn19:1qTPCk:lBIvwVki5lMzBRi2hSJuUd8U8ZH4QcGzAj1RroYsAUo",
+            "expire_date": "2023-08-22T16:05:06.965Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "t9i9dwozh5wn1zj63fwaj384b2fdy6yf",
+        "fields": {
+            "session_data": "eyJiYXNrZXQiOnsiMSI6MX19:1qSMT2:kRjAr9PsPzhRO_hcaPudb_dgB9JgfRWCh91TMI2HQ-g",
+            "expire_date": "2023-08-19T18:57:36.534Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "v3wceyomj3vs2lpe5ep3fqt890m16b4r",
+        "fields": {
+            "session_data": ".eJxVjjsOgzAQRO-yNbLi-O8yfc6AFu86ECKQsKkQdw9IFEk7b-ZpNmhxrX27Fl7agSCChOY36zCNPJ2A3ji9ZpHmqS5DJ86KuGgRz5n487i6f4IeS3-sM6GxirLkrLTL1qJSVmaNSUsnlc1OO8Pes8o-eON8IPImheDRUOLbIe2wjFwhbqAg3pvjaZT7_gU0oT3j:1qU8QI:eZY3k3ExQe_PWxQvi_AwnHUtuYyzsLFG2CXBnpKhsck",
+            "expire_date": "2023-08-24T16:22:06.318Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "vtu52yxhr2dxkg5zj86hlwzy4t7c2pg0",
+        "fields": {
+            "session_data": ".eJxVjEEOgyAQRe8y64YopQguu-8ZyIwMldpAI5q0Md69mrhx-977fwHCMvAE7bJewBUuJebk-PuJ4w_aamM4T72bC48uemjhCidG2A2cduFfmJ5ZdDlNYySxJ-KwRTyy5_f9aE8HPZZ-W4eAKGVDFCTXndXobW1QGslNrRpCNohB2atXmqS35NlUmm_E0iovScP6B2mKRE8:1qY7fT:ZktoN1cmvfWJ5M5UCEVTnd43FKKShF1ORHLlsT9woDI",
+            "expire_date": "2023-09-04T16:22:15.083Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "w1yrbka9ctvn2u9c87bcs77p88cugnmm",
+        "fields": {
+            "session_data": ".eJxVjDEOgzAMRe_iuYoak4aEsTtnQDZ2CqUCicCEuHtBYmjX_95_GzS0Ll2zZp2bXqCCAm6_G1M76HgCedP4mkw7jcvcszkVc9Fs6kn087zcv0BHuTveKREhlswJ1bbRk0QbCANqaV3JpIEouViI84wSWTTcvT5YMTpB9keUKQ-6QLWBhcru-xcGkj3y:1qYSIN:B50Dl-q4NqoIDa6gmiz-tIRYq-sLKtUmgU1IDXBYE_Y",
+            "expire_date": "2023-09-05T14:23:47.003Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "wn1c3rd0qu0n9ff2ij5tzn65yesdw2aj",
+        "fields": {
+            "session_data": "eyJiYXNrZXQiOnsiMiI6MX19:1qWkTz:Tkpfa9T6My2bHoP1fivXNX9fQcDx_noUQwHbmGSEsgk",
+            "expire_date": "2023-08-31T21:24:43.123Z"
+        }
+    },
+    {
+        "model": "sessions.session",
+        "pk": "zraxdhtfurgg3p439lo6cgmio1qy0k35",
+        "fields": {
+            "session_data": "eyJfc2Vzc2lvbl9leHBpcnkiOjB9:1qXl04:tGPDcgHdFo8ykqF9Z4IhUbobMXt9dGjGjnriXRxcczk",
+            "expire_date": "2023-09-03T16:10:00.527Z"
+        }
+    },
+    {
+        "model": "sites.site",
+        "pk": 1,
+        "fields": {
+            "domain": "example.com",
+            "name": "example.com"
+        }
+    },
+    {
+        "model": "account.emailaddress",
+        "pk": 1,
+        "fields": {
+            "user": 2,
+            "email": "sean@ci.com",
+            "verified": true,
+            "primary": true
+        }
+    },
+    {
+        "model": "account.emailaddress",
+        "pk": 2,
+        "fields": {
+            "user": 4,
+            "email": "helen_beatriz02@outlook.com",
+            "verified": true,
+            "primary": true
+        }
+    },
+    {
+        "model": "account.emailaddress",
+        "pk": 3,
+        "fields": {
+            "user": 3,
+            "email": "test@test.com",
+            "verified": true,
+            "primary": false
+        }
+    },
+    {
+        "model": "products.category",
+        "pk": 1,
+        "fields": {
+            "name": "Collars for Dogs",
+            "friendly_name": "Dog Collars"
+        }
+    },
+    {
+        "model": "products.category",
+        "pk": 2,
+        "fields": {
+            "name": "Toys for Dogs",
+            "friendly_name": "Dog Toys"
+        }
+    },
+    {
+        "model": "products.category",
+        "pk": 3,
+        "fields": {
+            "name": "Beds for Dogs",
+            "friendly_name": "Dog Beds"
+        }
+    },
+    {
+        "model": "products.category",
+        "pk": 4,
+        "fields": {
+            "name": "Leashes for Dogs",
+            "friendly_name": "Dog Leashes"
+        }
+    },
+    {
+        "model": "products.category",
+        "pk": 5,
+        "fields": {
+            "name": "Grooming for Dogs",
+            "friendly_name": "Dog Grooming"
+        }
+    },
+    {
+        "model": "products.category",
+        "pk": 8,
+        "fields": {
+            "name": "new_arrivals",
+            "friendly_name": "New Arrivals"
+        }
+    },
+    {
+        "model": "products.category",
+        "pk": 9,
+        "fields": {
+            "name": "shirts",
+            "friendly_name": "Shirts"
+        }
+    },
+    {
+        "model": "products.category",
+        "pk": 10,
+        "fields": {
+            "name": "All Dog Clothing",
+            "friendly_name": "All Dog Clothing"
+        }
+    },
+    {
+        "model": "products.category",
+        "pk": 11,
+        "fields": {
+            "name": "Bandanas",
+            "friendly_name": "Bandanas"
+        }
+    },
+    {
+        "model": "products.category",
+        "pk": 12,
+        "fields": {
+            "name": "T-Shirts",
+            "friendly_name": "T-Shirts"
+        }
+    },
+    {
+        "model": "products.category",
+        "pk": 13,
+        "fields": {
+            "name": "Dog Beds",
+            "friendly_name": "Dog Beds"
+        }
+    },
+    {
+        "model": "products.category",
+        "pk": 14,
+        "fields": {
+            "name": "Dog Feeders",
+            "friendly_name": "Dog Feeders"
+        }
+    },
+    {
+        "model": "products.category",
+        "pk": 15,
+        "fields": {
+            "name": "All Dog Homeware",
+            "friendly_name": "All Dog Homeware"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 1,
+        "fields": {
+            "category": 1,
+            "sku": "dog001",
+            "name": "Dog Collar - Adjustable",
+            "description": "A comfortable and adjustable dog collar for your furry friend. Made with durable materials and available in various colors and sizes.",
+            "price": "14.99",
+            "rating": "4.70",
+            "image_url": "http://dog-collar.jpg",
+            "image": "dogcollar.jpg"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 2,
+        "fields": {
+            "category": 2,
+            "sku": "dog002",
+            "name": "Dog Chew Toys - Set of 3",
+            "description": "Keep your dog entertained with this set of three chew toys. Designed to satisfy your dog's natural chewing instincts and promote dental health.",
+            "price": "19.99",
+            "rating": "4.90",
+            "image_url": "http://dog-chew-toys.jpg",
+            "image": "71hm-Je8GhL._AC_UF10001000_QL80_.jpg"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 3,
+        "fields": {
+            "category": 3,
+            "sku": "dog003",
+            "name": "Dog Bed - Orthopedic",
+            "description": "Give your dog a comfortable and supportive place to rest with this orthopedic dog bed. Perfect for dogs of all sizes.",
+            "price": "49.99",
+            "rating": "4.80",
+            "image_url": "http://dog-bed.jpg",
+            "image": "74699_ortho_bett_fg_4916_9.jpg"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 4,
+        "fields": {
+            "category": 4,
+            "sku": "dog004",
+            "name": "Dog Leash - Reflective",
+            "description": "A durable and reflective dog leash for safe walks at any time of day. Features a comfortable handle and a secure clasp.",
+            "price": "12.99",
+            "rating": "4.60",
+            "image_url": "http://dog-leash.jpg",
+            "image": "40404-Crag-Leash-Granite-Gray.webp"
+        }
+    },
+    {
+        "model": "products.product",
+        "pk": 5,
+        "fields": {
+            "category": 5,
+            "sku": "dog005",
+            "name": "Dog Grooming Kit",
+            "description": "Keep your dog looking their best with this comprehensive grooming kit. Includes brushes, combs, nail clippers, and more.",
+            "price": "29.99",
+            "rating": "4.70",
+            "image_url": "http://dog-grooming-kit.jpg",
+            "image": "ZB897-College-Starter-Kit-Kit-Contents-High-JPG-1024x1024_800x.webp"
+        }
+    },
+    {
+        "model": "products.productreview",
+        "pk": 4,
+        "fields": {
+            "product": 1,
+            "name": 4,
+            "content": "cd",
+            "stars": 3,
+            "date_added": "2023-08-21T17:01:20.954Z"
+        }
+    },
+    {
+        "model": "products.productreview",
+        "pk": 5,
+        "fields": {
+            "product": 1,
+            "name": 4,
+            "content": "jhh",
+            "stars": 3,
+            "date_added": "2023-08-21T17:01:23.465Z"
+        }
+    },
+    {
+        "model": "products.productreview",
+        "pk": 6,
+        "fields": {
+            "product": 1,
+            "name": 4,
+            "content": "jhhjhj",
+            "stars": 3,
+            "date_added": "2023-08-21T17:01:26.832Z"
+        }
+    },
+    {
+        "model": "products.productreview",
+        "pk": 7,
+        "fields": {
+            "product": 1,
+            "name": 3,
+            "content": "xdd",
+            "stars": 3,
+            "date_added": "2023-08-21T17:09:07.881Z"
+        }
+    },
+    {
+        "model": "users.userprofile",
+        "pk": 1,
+        "fields": {
+            "user": 5,
+            "default_phone_number": null,
+            "default_country": null,
+            "default_postcode": null,
+            "default_town_or_city": null,
+            "default_street_address1": null,
+            "default_street_address2": null,
+            "default_county": null
+        }
+    },
+    {
+        "model": "users.userprofile",
+        "pk": 2,
+        "fields": {
+            "user": 2,
+            "default_phone_number": null,
+            "default_country": null,
+            "default_postcode": null,
+            "default_town_or_city": null,
+            "default_street_address1": null,
+            "default_street_address2": null,
+            "default_county": null
+        }
+    },
+    {
+        "model": "users.userprofile",
+        "pk": 3,
+        "fields": {
+            "user": 4,
+            "default_phone_number": "0864117822",
+            "default_country": "IE",
+            "default_postcode": "K36R620",
+            "default_town_or_city": "Dublin",
+            "default_street_address1": "33 Gainsborough Avenue, Swords Road",
+            "default_street_address2": null,
+            "default_county": "Malahide"
+        }
+    }
+]
