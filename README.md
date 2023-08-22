@@ -2,6 +2,10 @@
 
 Welcome to the Dog E-Commerce Shop, your one-stop destination for all things related to dogs. Whether you're a proud dog owner or simply a dog enthusiast, our platform is tailored to meet all your canine needs.
 
+[Visit live website](https://ecommercedogstore-167498ed6129.herokuapp.com/)
+
+ <img src="staticfiles/images/mockup.png">
+
 
 ## Table of Contents
 - [Introduction](#introduction)
@@ -18,6 +22,77 @@ Welcome to the Dog E-Commerce Shop, your one-stop destination for all things rel
 ### What is the Dog E-Commerce Shop?
 
 The Dog E-Commerce Shop is a comprehensive online platform designed to cater to dog lovers and pet owners. Our mission is to provide a seamless shopping experience, valuable resources, and a vibrant community for all things dog-related.
+
+## Dog Shop Website User Stories
+
+
+### Visitor (Non-Authenticated User):
+
+- [ ] **View Home Page**: As a visitor, I want to view the home page to understand what the website offers.
+ <img src="staticfiles/images/mainpage.png">
+
+- [ ] **Browse Categories**: I want to browse product categories and see a list of available products.
+ <img src="staticfiles/images/categories.png">
+
+- [ ] **View Product Details**: I want to click on a product to view its details, including its name, description, price, and customer reviews.
+
+ <img src="staticfiles/images/display.png">
+
+- [ ] **Create Account**: I want to create an account on the website to access additional features.
+ 
+ <img src="staticfiles/images/register.png">
+
+- [ ] **Log In**: I want to log in to my account using my email and password.
+
+ <img src="staticfiles/images/login.png">
+
+### Authenticated User (Customer):
+
+- [ ] **Add to Cart**: I want to add products to my shopping cart.
+
+- [ ] **Modify Cart**: I want to view my shopping cart and modify the quantity or remove items.
+
+- [ ] **Checkout**: I want to proceed to checkout to purchase the items in my cart.
+
+- [ ] **Order History**: I want to view my order history to track past purchases.
+
+ <img src="staticfiles/images/history.png">
+
+- [ ] **Leave Reviews**: I want to leave reviews and comments on products.
+
+ <img src="staticfiles/images/reviews.png">
+
+- [ ] **Log Out**: I want to log out of my account when I'm done using the website.
+
+### Admin User:
+
+- [ ] **Add Products**: I want to add new products to the store, including their name, description, price, and category.
+
+- [ ] **Edit Products**: I want to edit product details such as their name, description, price, and category.
+
+- [ ] **Remove Products**: I want to remove products from the store.
+
+- [ ] **View Orders**: I want to view a list of customer orders.
+
+- [ ] **Manage Accounts**: I want to manage customer accounts (e.g., reset passwords, deactivate accounts).
+
+### Customer (During Checkout):
+
+- [ ] **Provide Shipping Info**: I want to provide shipping information, including my name, address, and contact details.
+
+- [ ] **Select Payment Method**: I want to select a payment method and enter payment information securely.
+
+- [ ] **Order Confirmation**: I want to receive an order confirmation email after completing a purchase.
+
+### Authenticated User (Customer or Admin):
+
+- [ ] **Search for Products**: I want to search for products using keywords.
+
+- [ ] **Filter Products**: I want to filter products by category or price range.
+
+- [ ] **View Product List**: I want to view a list of all products in the store.
+
+- [ ] **Stock Status**: I want to see which products are out of stock.
 
 ## Features
 
@@ -54,7 +129,6 @@ The Dog E-Commerce Shop is a comprehensive online platform designed to cater to 
 ### Product Display
 
 - **Product Listings:** Display featured dog products with images, descriptions, and prices.
-- **Related Products:** List related products below in a card format.
 
 ### Admin Features (Admins Only)
 
@@ -83,18 +157,18 @@ The Dog E-Commerce Shop is a comprehensive online platform designed to cater to 
 This project is licensed under the [MIT License](LICENSE).
 
 ## Schema 
- <img src="/media/diagram.png">
+ <img src="media/diagram.png">
 ## Dog Shop Database Schema
 
 ### Products
-- `product_id` (PK)
+- `product_id` 
 - `product_name`
 - `category`
 - `description`
 - `price`
 
 ### Customers
-- `customer_id` (PK)
+- `customer_id`
 - `first_name`
 - `last_name`
 - `email`
@@ -102,45 +176,45 @@ This project is licensed under the [MIT License](LICENSE).
 - `address`
 
 ### Orders
-- `order_id` (PK)
-- `customer_id` (FK)
+- `order_id` 
+- `customer_id` 
 - `order_date`
 - `total_amount`
 
 ### OrderItems
-- `order_item_id` (PK)
-- `order_id` (FK)
-- `product_id` (FK)
+- `order_item_id` 
+- `order_id`
+- `product_id`
 - `quantity_ordered`
 - `item_price`
 
 ### Reviews
-- `review_id` (PK)
-- `product_id` (FK)
-- `customer_id` (FK)
+- `review_id` 
+- `product_id` 
+- `customer_id` 
 - `rating`
 - `comment`
 
 ### ShippingInfo
-- `shipping_id` (PK)
-- `order_id` (FK)
+- `shipping_id`
+- `order_id` 
 - `shipment_date`
 - `tracking_number`
 - `delivery_address`
 
 ### Manufacturers
-- `manufacturer_id` (PK)
+- `manufacturer_id`
 - `manufacturer_name`
 - `manufacturer_description`
 
 ### Categories
-- `category_id` (PK)
+- `category_id` 
 - `category_name`
 
 This database schema represents the core entities and relationships for a dog shop, allowing you to manage information about dogs, customers, orders, reviews.
 
 
-<img src="">
+<img src="staticfiles/images/categories.png">
 
 ### Logout
 - Confirmation screen for logged-in users to log out from their account.
