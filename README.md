@@ -36,7 +36,7 @@ The Dog E-Commerce Shop is a comprehensive online platform designed to cater to 
 
 - [ ] **View Product Details**: I want to click on a product to view its details, including its name, description, price, and customer reviews.
 
- <img src="staticfiles/images/display.png">
+ <img src="staticfiles/images/reviews.png">
 
 - [ ] **Create Account**: I want to create an account on the website to access additional features.
  
@@ -202,10 +202,6 @@ This project is licensed under the [MIT License](LICENSE).
 - `tracking_number`
 - `delivery_address`
 
-### Manufacturers
-- `manufacturer_id`
-- `manufacturer_name`
-- `manufacturer_description`
 
 ### Categories
 - `category_id` 
